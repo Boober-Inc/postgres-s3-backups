@@ -15,7 +15,7 @@ services:
       # pick the region closest to your database
       # For example, us-west-2 for the Oregon region
       - key: AWS_REGION
-        sync: us-east-1 
+        sync: false 
       # A globally unique name for your bucket
       # For example, <your-username>-<database name>-render-postgres-backups
       - key: S3_BUCKET_NAME
